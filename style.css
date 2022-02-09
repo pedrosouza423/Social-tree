@@ -1,0 +1,45 @@
+:root {
+    --social-color: #BB99DD;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#wrapper{
+    margin-top: 201px;
+    margin-left: 556px;
+}
+
+#selfie{
+    width: 200px;
+    height: 200px;
+    margin-left: 56px;
+    padding: 6px 6px 7px 7px;
+    border: solid 2px var(--social-color);
+    border-radius: 50%;
+
+}
+
+#instagram{
+    position: absolute;
+    width: 99px;
+    height: 24px;
+    left: 669px;
+    top: 429px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 24px;
+    margin-bottom: 36px;
+
+    /* identical to box height */
+
+    text-align: center;
+    color: var(--social-color);
+}
+
